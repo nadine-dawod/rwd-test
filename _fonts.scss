@@ -1,0 +1,22 @@
+
+$primary-color: #242635;
+
+p {
+    font-family: 'Source Sans 3', sans-serif;
+    color: $primary-color;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: $primary-color;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 102px;
+    letter-spacing: -2px;
+}
+

@@ -1,0 +1,49 @@
+@import 'fonts';
+
+.heading {
+    max-width: 1200px;
+    width: 100%;
+    height: 10vh;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width:480px) 
+{ .heading {
+    max-width: 480px;
+    width: 100%;
+}}
+
+@media screen and (min-width:770px)
+{ .heading {
+    max-width: 770px;
+    width: 100%;
+}}
+
+.heading__img-logo {
+    width: 90px;
+    height: 35px;
+}
+
+.heading__nav-bar {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: no-wrap;
+}
+
+@media screen and (max-width: 480px) 
+{ .heading {max-height: 50vh; height: 100%;} .heading__nav-bar {display: flex; flex-direction: column;}  
+}
+
+.heading__nav-bar__link {
+    text-decoration: none;
+}
+.heading__nav-bar__link:hover {
+    text-decoration: underline $primary-color 1px;
+    cursor: pointer;
+}
