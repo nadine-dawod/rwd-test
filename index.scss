@@ -14,15 +14,11 @@ p {
     text-align: center;
 }
 
-/* @media screen and (max-width: 1200px)
-{ p {color: red}}
-
 @media screen and (max-width: 770px) 
-{ p {color: green;}}
+{.main__title, .main__para {max-width: 770px; width:100%}}
 
-@media screen and (max-width: 480px)
-{ p {color: blue;}} */
-
+@media screen and (max-width: 320px) 
+{.main__title, .main__para {max-width: 320px; width:100%}}
 
 .main__para {
     white-space: pre;
